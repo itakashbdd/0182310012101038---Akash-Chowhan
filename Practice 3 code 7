@@ -1,0 +1,12 @@
+import 'dart:math';
+
+double calculatePower(double base, int exponent) {
+  return pow(base, exponent).toDouble();
+}
+
+void main() {
+  double base = 5;
+  int exponent = 3;
+
+  print("$base ^ $exponent = ${calculatePower(base, exponent)}");
+}
