@@ -1,0 +1,10 @@
+double calculateCircleArea(double r) {
+  const double pi = 3.1416;
+  return pi * r * r;
+}
+
+void main() {
+  double radius = 5;
+
+  print("Area of Circle: ${calculateCircleArea(radius)}");
+}
