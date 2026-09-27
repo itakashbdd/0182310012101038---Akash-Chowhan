@@ -1,0 +1,19 @@
+void main() {
+  Map<String, dynamic> person = {
+    "name": "Akash",
+    "address": "Sylhet",
+    "age": 26,
+    "country": "Bangladesh"
+  };
+
+  // Update country
+  person["country"] = "Germany";
+
+  // Print keys
+  print("Keys:");
+  print(person.keys);
+
+  // Print values
+  print("Values:");
+  print(person.values);
+}
